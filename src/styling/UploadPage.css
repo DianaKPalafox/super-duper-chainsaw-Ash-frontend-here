@@ -1,0 +1,71 @@
+.upload-container {
+  display: fixed;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding-top: 5px;
+  gap: 260px; 
+  padding-bottom: 20px;
+
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+  
+.upload-form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+
+
+.upload-form label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.upload-form input[type="file"] {
+  display: none;
+  align-items: center;
+}
+
+
+/* Add this to your UploadPage.css file */
+.flex-textfield {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.flex-textfield > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+/* Adjust the height of the multiline text field */
+.summary-input .MuiInputBase-root {
+  display: flex;
+  height: 300px; 
+  width: 500px;
+  align-self: center;
+  align-items: initial;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0; /* Add top margin to create space between h2 and container */
+}
+

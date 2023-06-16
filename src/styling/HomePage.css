@@ -1,0 +1,13 @@
+.card-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url('../routes/images/GettyImages-1066324992_0.webp');
+}
+
+
+body {
+  background-image: url('../routes/images/GettyImages-1066324992_0.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

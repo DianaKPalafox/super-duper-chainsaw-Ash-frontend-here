@@ -1,0 +1,18 @@
+
+.App {
+  text-align: center;
+}
+
+
+body {
+  background-image: url('../routes/images/GettyImages-1066324992_0.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+
+  background-size: cover;
+
+}
